@@ -144,7 +144,7 @@ export default function Home() {
             <button className="close" onClick={() => setSelected(null)}>×</button>
             <div className="player">
               <iframe
-                src={`https://www.youtube.com/embed/${getYouTubeId(selected.link)}?autoplay=1&rel=0`}
+                src={`https://www.youtube.com/embed/${getYouTubeId(selected.link)}?autoplay=1&rel=0&hl=en`}
                 title={selected.name}
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowFullScreen
